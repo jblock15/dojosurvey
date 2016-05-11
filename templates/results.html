@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+ 	<meta charset="UTF-8">
+ 	<title>Results</title>
+ 	<link rel="stylesheet" href="{{ url_for('static',filename='css/style.css')}}">
+ </head>
+ <body>
+ 	<div id="container">
+ 		<div id="submitted">
+      <fieldset>
+        <legend>Submitted Info</legend>
+			<p>Name: {{ name }}</p>
+ 			<p>Dojo Location: {{ dojo }}</p>
+ 			<p>Favorite Language: {{ language }}</p>
+ 			<p>Comment: {{ comments }}</p>
+    </fieldset>
+    </div>
+ 	</div>
+ </body>
+ </html>
